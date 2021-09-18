@@ -1,0 +1,49 @@
+# my smart contract
+this is my smart contract and under develop
+
+## Setting up
+To run and work on it
+```
+pip install -r requirements.txt
+```
+
+then run command below
+```
+brownie console
+```
+
+if you get a error based on that 'not exist ganache-cli'
+you need install this with npm or yarn(on mac)
+
+```
+npm install -g ganache-cli
+```
+
+```
+yarn global add ganache-cli
+```
+
+
+i'm use npm because, nmp installing so easy on mac
+
+for this see the site below and download node package and follow instruction into site
+
+(https://nodejs.org/en/download/)
+
+so
+
+you can work on your network opinion
+
+with config your network opinion in brownie-config.yaml file
+
+but if you want work on local network so you need ganache from link below
+
+(https://www.trufflesuite.com/ganache)
+
+and add local network to default brownie networks
+
+with command below
+
+```
+brownie networks add Development local path=[your local ganache host] cmd=ganache-cli
+```
