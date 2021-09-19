@@ -1,2 +1,6 @@
 networks:
-  default: local
+  default: rinkeby
+
+compiler:
+    vyper:
+        version: 0.2.15
